@@ -1,0 +1,153 @@
+{
+  "3cddb8dd-8f57-4f20-92c8-ef4d03845ca0": {
+    "requirement_set_id": "3cddb8dd-8f57-4f20-92c8-ef4d03845ca0",
+    "university_name": "Vellore Institute of Technology (VIT Vellore)",
+    "university_domain": "vit.ac.in",
+    "application_type": "undergraduate",
+    "college_category": "Deemed/Private",
+    "counseling_body": "VIT Admissions Committee",
+    "requirements": [
+      {
+        "id": "req_1_seat_allotment_letter",
+        "title": "Provisional Admission Allotment Letter & Fee Advance Receipt",
+        "description": "Official seat allotment letter issued through entrance examination / counseling portal with tuition fee payment receipt.",
+        "required": true,
+        "document_type": "seat_allotment_letter",
+        "check": "present",
+        "value": null,
+        "source_url": "https://vit.ac.in/admissions",
+        "source_category": "official",
+        "source_name": "College Admissions Office"
+      },
+      {
+        "id": "req_2_jee_scorecard",
+        "title": "Entrance Exam Score Card / Rank Card (VITEEE / MET / SRMJEEE / JEE Main)",
+        "description": "Official entrance examination scorecard / rank card indicating candidate merit rank.",
+        "required": true,
+        "document_type": "jee_scorecard",
+        "check": "present",
+        "value": null,
+        "source_url": "https://vit.ac.in",
+        "source_category": "official",
+        "source_name": "Entrance Exam Board"
+      },
+      {
+        "id": "req_3_class_12_marksheet",
+        "title": "Class XII Mark Sheet (Minimum 60% Aggregate in PCM/PCB)",
+        "description": "Original Class 12 / Higher Secondary mark sheet showing at least 60% aggregate in Physics, Chemistry, Mathematics/Biology.",
+        "required": true,
+        "document_type": "class_12_marksheet",
+        "check": "minimum_percentage",
+        "value": 60.0,
+        "source_url": "https://vit.ac.in",
+        "source_category": "official",
+        "source_name": "College Academic Regulations & AICTE Norms"
+      },
+      {
+        "id": "req_4_class_10_marksheet",
+        "title": "Class X Mark Sheet / Certificate (Age & DOB Proof)",
+        "description": "Original 10th standard certificate proving candidate full name and date of birth.",
+        "required": true,
+        "document_type": "class_10_marksheet",
+        "check": "present",
+        "value": null,
+        "source_url": "https://www.aicte-india.org",
+        "source_category": "government",
+        "source_name": "AICTE Document Norms"
+      },
+      {
+        "id": "req_5_migration_certificate",
+        "title": "Transfer Certificate (TC) & Migration Certificate",
+        "description": "Original Transfer / School Leaving Certificate and Migration Certificate from the board/council.",
+        "required": true,
+        "document_type": "migration_certificate",
+        "check": "present",
+        "value": null,
+        "source_url": "https://www.quora.com/What-are-the-documents-required-for-VIT-counselling-and-admission",
+        "source_category": "community",
+        "source_name": "Quora Physical Reporting Threads & Campus Portal"
+      },
+      {
+        "id": "req_6_caste_certificate",
+        "title": "Community / Nativity Certificate (For Reserved & Fee Concession Categories)",
+        "description": "Original community certificate / nativity certificate issued by revenue authority (if applicable).",
+        "required": false,
+        "document_type": "caste_certificate",
+        "check": "present",
+        "value": null,
+        "source_url": "https://www.india.gov.in",
+        "source_category": "government",
+        "source_name": "State Revenue Department"
+      },
+      {
+        "id": "req_7_anti_ragging_affidavit",
+        "title": "Affidavit by Student & Parent (Anti-Ragging & Code of Conduct)",
+        "description": "Online UGC anti-ragging affidavit acknowledgment receipt and signed institutional code of conduct undertaking.",
+        "required": true,
+        "document_type": "anti_ragging_affidavit",
+        "check": "present",
+        "value": null,
+        "source_url": "https://antiragging.in",
+        "source_category": "government",
+        "source_name": "UGC Anti-Ragging Mandate"
+      },
+      {
+        "id": "req_8_medical_certificate",
+        "title": "Physical Fitness Certificate",
+        "description": "Medical fitness certificate issued by an authorized medical practitioner along with blood group record.",
+        "required": true,
+        "document_type": "medical_certificate",
+        "check": "present",
+        "value": null,
+        "source_url": "https://vit.ac.in",
+        "source_category": "official",
+        "source_name": "Institute Health Center Format"
+      },
+      {
+        "id": "req_9_identity_card",
+        "title": "Aadhaar Card Copy / Government Photo ID",
+        "description": "Clear copy of Aadhaar card of candidate and parent/guardian.",
+        "required": true,
+        "document_type": "identity_card",
+        "check": "present",
+        "value": null,
+        "source_url": "https://uidai.gov.in",
+        "source_category": "government",
+        "source_name": "UIDAI Government Standard"
+      },
+      {
+        "id": "req_10_photo",
+        "title": "Recent Passport Size Photographs (8 copies)",
+        "description": "Color photographs in formal attire on light background.",
+        "required": true,
+        "document_type": "photo",
+        "check": "present",
+        "value": null,
+        "source_url": "https://www.quora.com/How-many-photos-are-needed-during-VIT-reporting",
+        "source_category": "community",
+        "source_name": "Quora Student Advice & Campus Onboarding Checklist"
+      }
+    ],
+    "disclaimer": "Document checklist compiled for Vellore Institute of Technology (VIT Vellore) across 3 authoritative channels: 1) Official Institution Portal (vit.ac.in), 2) Government Counseling Authority (VIT Admissions Committee), and 3) Verified Student Physical Reporting Community Guidelines (Quora/Student Forums). Always carry 3 sets of self-attested photocopies along with original documents during physical reporting.",
+    "sources_found": [
+      {
+        "category": "Official College Portal",
+        "name": "Vellore Institute of Technology (VIT Vellore) Admissions Desk",
+        "url": "https://vit.ac.in/admissions",
+        "badge_color": "official"
+      },
+      {
+        "category": "Government & Counseling Authority",
+        "name": "AICTE Approval Process Handbook & UGC Regulations",
+        "url": "https://www.aicte-india.org",
+        "badge_color": "government"
+      },
+      {
+        "category": "Community & Student Helpdesk",
+        "name": "Student Document Verification Guides & Campus Reporting Forums",
+        "url": "https://www.quora.com/topic/Vellore-Institute-of-Technology-VIT",
+        "badge_color": "community"
+      }
+    ]
+  }
+}

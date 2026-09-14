@@ -1,0 +1,15 @@
+{
+  "undergraduate": [
+    {"id": "passport", "title": "Valid identity document", "required": true, "document_type": "passport", "check": "present"},
+    {"id": "marksheet", "title": "Academic marksheet", "required": true, "document_type": "marksheet", "check": "present"},
+    {"id": "photo", "title": "Passport-size photograph", "required": true, "document_type": "photo", "check": "present"},
+    {"id": "marks", "title": "Minimum academic score", "required": true, "document_type": "marksheet", "check": "minimum_percentage", "value": 60},
+    {"id": "income", "title": "Income certificate (if fee aid requested)", "required": false, "document_type": "income_certificate", "check": "present"}
+  ],
+  "postgraduate": [
+    {"id": "passport", "title": "Valid identity document", "required": true, "document_type": "passport", "check": "present"},
+    {"id": "degree", "title": "Bachelor degree or final transcript", "required": true, "document_type": "marksheet", "check": "present"},
+    {"id": "photo", "title": "Passport-size photograph", "required": true, "document_type": "photo", "check": "present"},
+    {"id": "marks", "title": "Minimum academic score", "required": true, "document_type": "marksheet", "check": "minimum_percentage", "value": 55}
+  ]
+}

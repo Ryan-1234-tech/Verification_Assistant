@@ -1,0 +1,579 @@
+{
+  "categories": {
+    "IIT": {
+      "counseling_body": "JoSAA (Joint Seat Allocation Authority)",
+      "government_source": {
+        "title": "JoSAA / CSAB Business Rules & Verification Protocol",
+        "url": "https://josaa.nic.in",
+        "authority": "Ministry of Education, Government of India"
+      },
+      "community_source": {
+        "title": "IIT Campus Physical Reporting Guide & Student Discussions",
+        "url": "https://www.quora.com/topic/Indian-Institutes-of-Technology-IITs",
+        "authority": "Quora Verified Student Community"
+      },
+      "mandatory_rules": [
+        {
+          "id": "josaa_seat_allotment",
+          "title": "Provisional Seat Allotment Letter",
+          "description": "Downloaded and signed JoSAA final round seat allotment & acceptance letter.",
+          "required": true,
+          "document_type": "seat_allotment_letter",
+          "source_category": "government",
+          "source_name": "JoSAA Business Rules",
+          "source_url": "https://josaa.nic.in",
+          "check": "present"
+        },
+        {
+          "id": "jee_adv_admit_score",
+          "title": "JEE Advanced Rank Card & Admit Card",
+          "description": "NTA JEE Advanced scorecard with category rank and original admit card.",
+          "required": true,
+          "document_type": "jee_scorecard",
+          "source_category": "government",
+          "source_name": "NTA / JoSAA Portal",
+          "source_url": "https://jeeadv.ac.in",
+          "check": "present"
+        },
+        {
+          "id": "class_10_dob",
+          "title": "Class X Mark Sheet / Certificate (DOB Proof)",
+          "description": "Original 10th standard certificate showing candidate full name and date of birth.",
+          "required": true,
+          "document_type": "class_10_marksheet",
+          "source_category": "government",
+          "source_name": "AICTE / JoSAA Verification Standard",
+          "source_url": "https://josaa.nic.in",
+          "check": "present"
+        },
+        {
+          "id": "class_12_marksheet",
+          "title": "Class XII / Qualifying Exam Mark Sheet (Top 20 Percentile or 75% Marks)",
+          "description": "Original Class 12 mark sheet meeting the 75% aggregate criteria (65% for SC/ST/PwD).",
+          "required": true,
+          "document_type": "class_12_marksheet",
+          "source_category": "official",
+          "source_name": "IIT Academic Council Admission Norms",
+          "source_url": "https://josaa.nic.in",
+          "check": "minimum_percentage",
+          "value": 75
+        },
+        {
+          "id": "medical_fitness",
+          "title": "Medical Fitness Certificate (Annexure 7 Format)",
+          "description": "Medical certificate issued by a registered medical practitioner (minimum MBBS) as per JoSAA format.",
+          "required": true,
+          "document_type": "medical_certificate",
+          "source_category": "government",
+          "source_name": "JoSAA Official Medical Standard",
+          "source_url": "https://josaa.nic.in",
+          "check": "present"
+        },
+        {
+          "id": "category_certificate",
+          "title": "Category / Caste / EWS / PwD Certificate (If Applicable)",
+          "description": "Issued on or after April 1 of admission year in central government format (OBC-NCL / Gen-EWS / SC / ST).",
+          "required": false,
+          "document_type": "caste_certificate",
+          "source_category": "government",
+          "source_name": "Ministry of Social Justice / JoSAA",
+          "source_url": "https://josaa.nic.in",
+          "check": "present"
+        },
+        {
+          "id": "identity_proof_aadhar",
+          "title": "Govt Photo Identity Proof (Aadhaar / Passport / Voter ID)",
+          "description": "Government issued photo identification matching applicant name exactly.",
+          "required": true,
+          "document_type": "identity_card",
+          "source_category": "government",
+          "source_name": "UIDAI / AICTE Verification Standard",
+          "source_url": "https://uidai.gov.in",
+          "check": "present"
+        },
+        {
+          "id": "transfer_migration",
+          "title": "Transfer Certificate (TC) & Migration Certificate",
+          "description": "Original school/college leaving certificate and board migration certificate.",
+          "required": true,
+          "document_type": "migration_certificate",
+          "source_category": "community",
+          "source_name": "Quora Physical Reporting Discussion & College Helpdesk",
+          "source_url": "https://www.quora.com/What-documents-are-required-for-physical-reporting-at-IIT",
+          "check": "present"
+        },
+        {
+          "id": "anti_ragging_undertaking",
+          "title": "Anti-Ragging Affidavits (Student & Parent Undertaking)",
+          "description": "UGC Anti-Ragging affidavit signed online at antiragging.in with reference number.",
+          "required": true,
+          "document_type": "anti_ragging_affidavit",
+          "source_category": "government",
+          "source_name": "UGC / AICTE Anti-Ragging Cell",
+          "source_url": "https://www.antiragging.in",
+          "check": "present"
+        },
+        {
+          "id": "passport_photos",
+          "title": "Recent Passport Size Photographs (4-6 copies)",
+          "description": "Identical color passport photos with white background as uploaded in the application.",
+          "required": true,
+          "document_type": "photo",
+          "source_category": "community",
+          "source_name": "Quora / Student Experience Portal",
+          "source_url": "https://www.quora.com/How-many-photographs-are-needed-during-IIT-counseling",
+          "check": "present"
+        }
+      ]
+    },
+    "NIT": {
+      "counseling_body": "JoSAA / CSAB / CCMT",
+      "government_source": {
+        "title": "CSAB & JoSAA National Counseling System",
+        "url": "https://csab.nic.in",
+        "authority": "Central Seat Allocation Board, MoE"
+      },
+      "community_source": {
+        "title": "NIT Campus Physical Reporting Checklist & Student Experiences",
+        "url": "https://www.quora.com/topic/National-Institutes-of-Technology-NITs",
+        "authority": "Quora Student Admission Forum"
+      },
+      "mandatory_rules": [
+        {
+          "id": "csab_seat_allotment",
+          "title": "Provisional Seat Allotment Letter & Fee Receipt",
+          "description": "JoSAA/CSAB seat allotment letter along with Seat Acceptance Fee (SAF) and Partial Admission Fee (PAF) receipt.",
+          "required": true,
+          "document_type": "seat_allotment_letter",
+          "source_category": "government",
+          "source_name": "CSAB / JoSAA Rules",
+          "source_url": "https://csab.nic.in",
+          "check": "present"
+        },
+        {
+          "id": "jee_main_scorecard",
+          "title": "JEE Main Score Card & Admit Card",
+          "description": "NTA JEE Main official scorecard with CRL (Common Rank List) and Category Rank.",
+          "required": true,
+          "document_type": "jee_scorecard",
+          "source_category": "government",
+          "source_name": "National Testing Agency (NTA)",
+          "source_url": "https://jeemain.nta.ac.in",
+          "check": "present"
+        },
+        {
+          "id": "class_10_marksheet",
+          "title": "Class X Marksheet and Certificate (Date of Birth Proof)",
+          "description": "Original 10th standard certificate proving candidate date of birth and parentage.",
+          "required": true,
+          "document_type": "class_10_marksheet",
+          "source_category": "government",
+          "source_name": "AICTE Document Norms",
+          "source_url": "https://josaa.nic.in",
+          "check": "present"
+        },
+        {
+          "id": "class_12_marksheet",
+          "title": "Class XII Mark Sheet (75% Aggregate in PCM for General/OBC, 65% for SC/ST)",
+          "description": "Original qualifying exam mark sheet with Physics, Chemistry/Technical, Mathematics.",
+          "required": true,
+          "document_type": "class_12_marksheet",
+          "source_category": "official",
+          "source_name": "NIT Council Admission Eligibility",
+          "source_url": "https://csab.nic.in",
+          "check": "minimum_percentage",
+          "value": 75
+        },
+        {
+          "id": "medical_fitness",
+          "title": "Medical Fitness Certificate",
+          "description": "JoSAA/CSAB prescribed Medical Certificate signed by a registered medical officer.",
+          "required": true,
+          "document_type": "medical_certificate",
+          "source_category": "government",
+          "source_name": "CSAB Medical Format",
+          "source_url": "https://csab.nic.in",
+          "check": "present"
+        },
+        {
+          "id": "category_certificate",
+          "title": "Category / Caste / EWS Certificate (Central Format)",
+          "description": "OBC-NCL / EWS issued on or after April 1 of the admission academic year.",
+          "required": false,
+          "document_type": "caste_certificate",
+          "source_category": "government",
+          "source_name": "National Commission for Backward Classes / JoSAA",
+          "source_url": "https://josaa.nic.in",
+          "check": "present"
+        },
+        {
+          "id": "transfer_character_cert",
+          "title": "Transfer / Migration & Character Certificate",
+          "description": "Original Character certificate issued by the Head of the Institution last attended and Migration card.",
+          "required": true,
+          "document_type": "migration_certificate",
+          "source_category": "community",
+          "source_name": "Quora NIT Physical Reporting Guidance",
+          "source_url": "https://www.quora.com/What-are-the-documents-required-for-NIT-admission-physical-reporting",
+          "check": "present"
+        },
+        {
+          "id": "gap_affidavit",
+          "title": "Gap Year Affidavit (For Droppers / Gap Students)",
+          "description": "Affidavit on Rs. 10/100 stamp paper notarized explaining study gap period after Class 12.",
+          "required": false,
+          "document_type": "gap_affidavit",
+          "source_category": "community",
+          "source_name": "Quora & Shiksha Physical Reporting Discussions",
+          "source_url": "https://www.quora.com/Is-a-gap-certificate-necessary-for-NIT-reporting",
+          "check": "present"
+        },
+        {
+          "id": "anti_ragging_undertaking",
+          "title": "Anti-Ragging Affidavit (UGC Format)",
+          "description": "Signed online Anti-Ragging undertaking reference ID for student & parent.",
+          "required": true,
+          "document_type": "anti_ragging_affidavit",
+          "source_category": "government",
+          "source_name": "UGC Anti-Ragging Portal",
+          "source_url": "https://antiragging.in",
+          "check": "present"
+        }
+      ]
+    },
+    "BITS": {
+      "counseling_body": "BITS Pilani Admissions Cell",
+      "government_source": {
+        "title": "UGC Recognized Deemed to be University Norms",
+        "url": "https://www.ugc.ac.in",
+        "authority": "University Grants Commission"
+      },
+      "community_source": {
+        "title": "BITS Pilani Campus Reporting & BITSAT Verification Guides",
+        "url": "https://www.quora.com/topic/Birla-Institute-of-Technology-and-Science-Pilani-BITS-Pilani",
+        "authority": "Quora BITSian Community & BITSAT Guide"
+      },
+      "mandatory_rules": [
+        {
+          "id": "bitsat_score_allotment",
+          "title": "BITSAT Scorecard & Campus Offer Letter",
+          "description": "Official BITSAT result printout with score and branch/campus allotment letter.",
+          "required": true,
+          "document_type": "seat_allotment_letter",
+          "source_category": "official",
+          "source_name": "BITS Admission Center",
+          "source_url": "https://www.bitsadmission.com",
+          "check": "present"
+        },
+        {
+          "id": "class_12_pcm_75",
+          "title": "Class XII Marksheet (Minimum 75% Aggregate in PCM/PCB with 60% in each subject)",
+          "description": "Original Class 12 board mark sheet strictly meeting BITS eligibility criteria (75% PCM aggregate, 60% individually in Physics, Chemistry, Math).",
+          "required": true,
+          "document_type": "class_12_marksheet",
+          "source_category": "official",
+          "source_name": "BITS Pilani Bulletin",
+          "source_url": "https://www.bitsadmission.com",
+          "check": "minimum_percentage",
+          "value": 75
+        },
+        {
+          "id": "class_10_certificate",
+          "title": "Class X Pass Certificate / Marksheet (Birth Date Verification)",
+          "description": "Original 10th standard certificate from recognized board.",
+          "required": true,
+          "document_type": "class_10_marksheet",
+          "source_category": "official",
+          "source_name": "BITS Admission Verification",
+          "source_url": "https://www.bitsadmission.com",
+          "check": "present"
+        },
+        {
+          "id": "transfer_migration_cert",
+          "title": "Transfer Certificate & Board Migration Certificate",
+          "description": "Original TC from school last attended and migration certificate.",
+          "required": true,
+          "document_type": "migration_certificate",
+          "source_category": "community",
+          "source_name": "Quora BITS Physical Verification Guide",
+          "source_url": "https://www.quora.com/What-documents-are-required-for-BITS-Pilani-campus-reporting",
+          "check": "present"
+        },
+        {
+          "id": "medical_fitness",
+          "title": "Medical Fitness Certificate",
+          "description": "Medical examination report signed by a registered medical doctor as per BITS proforma.",
+          "required": true,
+          "document_type": "medical_certificate",
+          "source_category": "official",
+          "source_name": "BITS Medical Center Standard",
+          "source_url": "https://www.bitsadmission.com",
+          "check": "present"
+        },
+        {
+          "id": "photo_id_proof",
+          "title": "Government Photo Identity Proof (Aadhaar Card / Passport)",
+          "description": "Original Aadhaar Card or Passport matching candidate name.",
+          "required": true,
+          "document_type": "identity_card",
+          "source_category": "government",
+          "source_name": "UIDAI Verification",
+          "source_url": "https://uidai.gov.in",
+          "check": "present"
+        },
+        {
+          "id": "anti_ragging_undertaking",
+          "title": "Anti-Ragging Undertaking (Student & Parent)",
+          "description": "Anti-Ragging declaration as per UGC guidelines.",
+          "required": true,
+          "document_type": "anti_ragging_affidavit",
+          "source_category": "government",
+          "source_name": "UGC Anti-Ragging Mandate",
+          "source_url": "https://antiragging.in",
+          "check": "present"
+        }
+      ]
+    },
+    "Deemed/Private": {
+      "counseling_body": "Institutional Admissions Committee / Management",
+      "government_source": {
+        "title": "AICTE Approval Process Handbook & UGC Regulations",
+        "url": "https://www.aicte-india.org",
+        "authority": "All India Council for Technical Education"
+      },
+      "community_source": {
+        "title": "Student Document Verification Guides & Campus Reporting Forums",
+        "url": "https://www.quora.com/topic/Vellore-Institute-of-Technology-VIT",
+        "authority": "Quora Student Community & Education Portals"
+      },
+      "mandatory_rules": [
+        {
+          "id": "provisional_allotment",
+          "title": "Provisional Admission Allotment Letter & Fee Advance Receipt",
+          "description": "Official seat allotment letter issued through entrance examination / counseling portal with tuition fee payment receipt.",
+          "required": true,
+          "document_type": "seat_allotment_letter",
+          "source_category": "official",
+          "source_name": "College Admissions Office",
+          "source_url": "https://vit.ac.in/admissions",
+          "check": "present"
+        },
+        {
+          "id": "entrance_rank_card",
+          "title": "Entrance Exam Score Card / Rank Card (VITEEE / MET / SRMJEEE / JEE Main)",
+          "description": "Official entrance examination scorecard / rank card indicating candidate merit rank.",
+          "required": true,
+          "document_type": "jee_scorecard",
+          "source_category": "official",
+          "source_name": "Entrance Exam Board",
+          "source_url": "https://vit.ac.in",
+          "check": "present"
+        },
+        {
+          "id": "class_12_marksheet",
+          "title": "Class XII Mark Sheet (Minimum 60% Aggregate in PCM/PCB)",
+          "description": "Original Class 12 / Higher Secondary mark sheet showing at least 60% aggregate in Physics, Chemistry, Mathematics/Biology.",
+          "required": true,
+          "document_type": "class_12_marksheet",
+          "source_category": "official",
+          "source_name": "College Academic Regulations & AICTE Norms",
+          "source_url": "https://vit.ac.in",
+          "check": "minimum_percentage",
+          "value": 60
+        },
+        {
+          "id": "class_10_marksheet",
+          "title": "Class X Mark Sheet / Certificate (Age & DOB Proof)",
+          "description": "Original 10th standard certificate proving candidate full name and date of birth.",
+          "required": true,
+          "document_type": "class_10_marksheet",
+          "source_category": "government",
+          "source_name": "AICTE Document Norms",
+          "source_url": "https://www.aicte-india.org",
+          "check": "present"
+        },
+        {
+          "id": "transfer_migration_cert",
+          "title": "Transfer Certificate (TC) & Migration Certificate",
+          "description": "Original Transfer / School Leaving Certificate and Migration Certificate from the board/council.",
+          "required": true,
+          "document_type": "migration_certificate",
+          "source_category": "community",
+          "source_name": "Quora Physical Reporting Threads & Campus Portal",
+          "source_url": "https://www.quora.com/What-are-the-documents-required-for-VIT-counselling-and-admission",
+          "check": "present"
+        },
+        {
+          "id": "community_nativity_cert",
+          "title": "Community / Nativity Certificate (For Reserved & Fee Concession Categories)",
+          "description": "Original community certificate / nativity certificate issued by revenue authority (if applicable).",
+          "required": false,
+          "document_type": "caste_certificate",
+          "source_category": "government",
+          "source_name": "State Revenue Department",
+          "source_url": "https://www.india.gov.in",
+          "check": "present"
+        },
+        {
+          "id": "student_affidavit_antiragging",
+          "title": "Affidavit by Student & Parent (Anti-Ragging & Code of Conduct)",
+          "description": "Online UGC anti-ragging affidavit acknowledgment receipt and signed institutional code of conduct undertaking.",
+          "required": true,
+          "document_type": "anti_ragging_affidavit",
+          "source_category": "government",
+          "source_name": "UGC Anti-Ragging Mandate",
+          "source_url": "https://antiragging.in",
+          "check": "present"
+        },
+        {
+          "id": "physical_fitness_cert",
+          "title": "Physical Fitness Certificate",
+          "description": "Medical fitness certificate issued by an authorized medical practitioner along with blood group record.",
+          "required": true,
+          "document_type": "medical_certificate",
+          "source_category": "official",
+          "source_name": "Institute Health Center Format",
+          "source_url": "https://vit.ac.in",
+          "check": "present"
+        },
+        {
+          "id": "aadhar_card",
+          "title": "Aadhaar Card Copy / Government Photo ID",
+          "description": "Clear copy of Aadhaar card of candidate and parent/guardian.",
+          "required": true,
+          "document_type": "identity_card",
+          "source_category": "government",
+          "source_name": "UIDAI Government Standard",
+          "source_url": "https://uidai.gov.in",
+          "check": "present"
+        },
+        {
+          "id": "passport_photos",
+          "title": "Recent Passport Size Photographs (8 copies)",
+          "description": "Color photographs in formal attire on light background.",
+          "required": true,
+          "document_type": "photo",
+          "source_category": "community",
+          "source_name": "Quora Student Advice & Campus Onboarding Checklist",
+          "source_url": "https://www.quora.com/How-many-photos-are-needed-during-VIT-reporting",
+          "check": "present"
+        }
+      ]
+    },
+    "State Govt / Autonomous": {
+      "counseling_body": "State CET Cell (KEA / MHT-CET / TNEA / JAC Delhi / WBJEEB)",
+      "government_source": {
+        "title": "State Technical Education Directorate & Counseling Authority Information Brochure",
+        "url": "https://cetcell.mahacet.org",
+        "authority": "State Government Directorate of Technical Education"
+      },
+      "community_source": {
+        "title": "State Engineering Admissions Facilitation & Scrutiny Center Guide",
+        "url": "https://www.quora.com/topic/Engineering-Admissions-in-India",
+        "authority": "Quora Student Community & CET Discussion Forums"
+      },
+      "mandatory_rules": [
+        {
+          "id": "state_allotment_letter",
+          "title": "CAP Allotment Letter / Seat Confirmation Letter",
+          "description": "Centralized Admission Process (CAP) final round seat allotment letter and seat acceptance receipt.",
+          "required": true,
+          "document_type": "seat_allotment_letter",
+          "source_category": "government",
+          "source_name": "State CET Cell / Directorate of Technical Education",
+          "source_url": "https://cetcell.mahacet.org",
+          "check": "present"
+        },
+        {
+          "id": "entrance_scorecard",
+          "title": "State Entrance Exam Scorecard (MHT-CET / KCET / WBJEE / TNEA / JEE Main)",
+          "description": "Official scorecard indicating percentile/marks and State Merit Rank.",
+          "required": true,
+          "document_type": "jee_scorecard",
+          "source_category": "government",
+          "source_name": "State Entrance Examination Authority",
+          "source_url": "https://cetcell.mahacet.org",
+          "check": "present"
+        },
+        {
+          "id": "class_10_marksheet",
+          "title": "SSC / Class X Marksheet (DOB Proof)",
+          "description": "Original 10th standard mark sheet containing student's registered date of birth.",
+          "required": true,
+          "document_type": "class_10_marksheet",
+          "source_category": "government",
+          "source_name": "DTE State Verification Norms",
+          "source_url": "https://www.aicte-india.org",
+          "check": "present"
+        },
+        {
+          "id": "class_12_marksheet",
+          "title": "HSC / Class XII Marksheet (Minimum 45-50% in PCM)",
+          "description": "Original Class 12 board mark sheet meeting minimum qualifying marks (45% for open category, 40% for backward categories).",
+          "required": true,
+          "document_type": "class_12_marksheet",
+          "source_category": "official",
+          "source_name": "State Directorate of Technical Education",
+          "source_url": "https://www.aicte-india.org",
+          "check": "minimum_percentage",
+          "value": 50
+        },
+        {
+          "id": "domicile_nationality",
+          "title": "Domicile Certificate / Birth Certificate (State Quota Eligibility)",
+          "description": "State Domicile certificate or Indian Nationality certificate proving home state eligibility.",
+          "required": true,
+          "document_type": "domicile_certificate",
+          "source_category": "government",
+          "source_name": "State Revenue Department & Tehsildar Office",
+          "source_url": "https://edistrict.gov.in",
+          "check": "present"
+        },
+        {
+          "id": "caste_validity",
+          "title": "Caste Certificate, Caste Validity & Non-Creamy Layer (NCL) Certificate",
+          "description": "Mandatory Caste Validity certificate & current financial year NCL for reserved categories.",
+          "required": false,
+          "document_type": "caste_certificate",
+          "source_category": "government",
+          "source_name": "Divisional Caste Scrutiny Committee",
+          "source_url": "https://barti.maharashtra.gov.in",
+          "check": "present"
+        },
+        {
+          "id": "college_leaving_cert",
+          "title": "College / School Leaving Certificate (TC) & Migration",
+          "description": "Original Leaving Certificate (LC/TC) issued by the junior college or school last attended.",
+          "required": true,
+          "document_type": "migration_certificate",
+          "source_category": "community",
+          "source_name": "Quora State CET Scrutiny Center Guide",
+          "source_url": "https://www.quora.com/What-documents-are-needed-for-engineering-admission-FC-center",
+          "check": "present"
+        },
+        {
+          "id": "anti_ragging_affidavit",
+          "title": "Anti-Ragging Undertaking",
+          "description": "Affidavit signed as per UGC regulations (online printout).",
+          "required": true,
+          "document_type": "anti_ragging_affidavit",
+          "source_category": "government",
+          "source_name": "UGC Anti-Ragging Web Portal",
+          "source_url": "https://antiragging.in",
+          "check": "present"
+        },
+        {
+          "id": "income_certificate",
+          "title": "Income Certificate (For TFWS / EBC / Scholarship schemes)",
+          "description": "Competent authority income certificate for annual income below Rs. 8 Lakhs if fee concession is claimed.",
+          "required": false,
+          "document_type": "income_certificate",
+          "source_category": "government",
+          "source_name": "MahaDBT / State Scholarship Portal",
+          "source_url": "https://mahadbt.maharashtra.gov.in",
+          "check": "present"
+        }
+      ]
+    }
+  }
+}

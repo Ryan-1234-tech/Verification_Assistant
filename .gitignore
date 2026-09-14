@@ -1,0 +1,8 @@
+backend/.venv/
+backend/.env
+backend/app/reports/*.pdf
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+__pycache__/
+*.pyc
